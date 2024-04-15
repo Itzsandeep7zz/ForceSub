@@ -64,7 +64,7 @@ async def get_user_join(id):
     return ok
 
 
-@BotzHub.on(events.ChatAction)
+@xoxbins.on(events.ChatAction)
 async def _(event):
     if on_join is False:
         return
